@@ -1,5 +1,6 @@
 package com.zm.itag.mbg.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class PmsBrand implements Serializable {
@@ -7,60 +8,28 @@ public class PmsBrand implements Serializable {
 
     private String name;
 
-    /**
-     * 品牌首字母
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "品牌首字母")
     private String firstLetter;
 
-    /**
-     * 排序（数值越大越靠前）
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "排序（数值越大越靠前）")
     private Integer sort;
 
-    /**
-     * 是否显示：0不显示；1显示
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "是否显示：0不显示；1显示")
     private Integer showStatus;
 
-    /**
-     * 产品数量
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "产品数量")
     private Integer productCount;
 
-    /**
-     * 产品评论数量
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "产品评论数量")
     private Integer productCommentCount;
 
-    /**
-     * 品牌logo
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "品牌logo")
     private String logo;
 
-    /**
-     * 品牌大图
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "品牌大图")
     private String bigPic;
 
-    /**
-     * 品牌备注
-     *
-     * @mbg.generated
-     */
+    @ApiModelProperty(value = "品牌备注")
     private String brandRemarks;
 
     private static final long serialVersionUID = 1L;
