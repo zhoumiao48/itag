@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @description Mybatis配置类
  */
 @Configuration
-@MapperScan("com.zm.mbg.mapper")
+@MapperScan({"com.zm.itag.mbg.mapper","com.zm.itag.dao"})
 public class MyBatisConfig {
 }
